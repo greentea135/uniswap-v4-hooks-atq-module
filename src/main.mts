@@ -148,7 +148,7 @@ function transformPoolsToTags(chainId: string, pools: Pool[]): ContractTag[] {
     tags.push({
       "Contract Address": `eip155:${chainId}:${hook}`,
       "Public Name Tag": `Hook #${index}`,
-      "Project Name": "Uniswap v4",
+      "Project Name": "Uniswap V4",
       "UI/Website Link": "https://uniswap.org",
       "Public Note": `Uniswap V4's Hook #${index} contract`,
     });
